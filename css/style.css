@@ -11,11 +11,14 @@ body {
   margin: 50px auto;
 }
 
+/* :root{
+    --primary-color: red;
+} */
+
 .navbar-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border: 2px solid yellow; */
 }
 
 
@@ -46,4 +49,63 @@ body {
 
 .navbar-section img {
   margin-right: 30px;
+}
+
+
+.intro-details{
+    width: 50%;
+    margin-right: 50px;
+}
+
+.intro-section{
+    display: flex;
+    align-items: center;
+    margin: 50px 0 70px 0;
+}
+
+.intro-title{
+    color: #3a3a3a;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.intro-description{
+    color: #3a3a3a;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.intro-details button{
+    background: #e02c6d;
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 24px;
+}
+
+.intro-img{
+    background-image: url("../images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40%;
+    padding: 35px 0;
+    margin-left: 35px;
+    text-align: center;
+}
+
+
+.partnership-section{
+    /* border: 1px solid palegreen; */
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 40px;
+    background: #fff;
+    border: 1px solid whitesmoke;
 }
