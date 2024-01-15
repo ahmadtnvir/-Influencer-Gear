@@ -62,4 +62,23 @@
   }
 
   /* Intro section end */
+
+   /* Partnership Section start  */
+
+   .partnership-section{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+   }
+
+   .upper-div-container{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .lower-div-container{
+    width: 80%;
+  }
+
+    /* Partnership Section end  */
 }
