@@ -15,6 +15,12 @@ body {
     --primary-color: red;
 } */
 
+header{
+  border: 2px solid yellowgreen;  experiment
+}
+
+/* Navbar section start */
+
 .navbar-section {
   display: flex;
   justify-content: space-between;
@@ -23,61 +29,97 @@ body {
 
 
 .nav-title {
-  width: 60%;
+  width: 50%;
   color: #3a3a3a;
   font-size: 25px;
   font-weight: 700;
 }
 
 .nav-items {
-  width: 40%;
+  display: flex;
+  align-items: center;
+  width: 45%;
 }
 
-.nav-items > ul {
+.nav-items .item-1{
+  width: 90%;
+  margin-right: 10px;
+}
+
+.nav-items .item-1 ul{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   list-style: none;
 }
 
-.nav-items > ul > li > a {
+.nav-items .item-1 ul a{
   text-decoration: none;
   color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
 }
 
-
-.navbar-section img {
-  margin-right: 30px;
+.nav-items  .item-2{
+  width: 10%;
+  text-align: center;
 }
 
+.nav-items  .item-2 img{
+ width: 45%;
+}
 
-.intro-details{
+.item-3{
+  width: 5%;
+  text-align: center;
+}
+
+/* Navbar section end */
+
+/* .nav-items > ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+} */
+
+/* .nav-items > ul > li > a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 16px;
+  font-weight: 600;
+} */
+
+
+/* .navbar-section img {
+  margin-right: 30px;
+} */
+
+
+/* .intro-details{
     width: 50%;
     margin-right: 50px;
-}
+} */
 
-.intro-section{
+/* .intro-section{
     display: flex;
     align-items: center;
     margin: 50px 0 70px 0;
-}
+} */
 
-.intro-title{
+/* .intro-title{
     color: #3a3a3a;
     font-size: 52px;
     font-weight: 700;
     line-height: 70px;
-}
+} */
 
-.intro-description{
+/* .intro-description{
     color: #3a3a3a;
     font-size: 16px;
     font-weight: 600;
     margin: 30px 0;
-}
+} */
 
-.intro-details button{
+/* .intro-details button{
     background: #e02c6d;
     border: none;
     border-radius: 40px;
@@ -85,21 +127,21 @@ body {
     font-size: 16px;
     font-weight: 700;
     padding: 10px 24px;
-}
+} */
 
-.intro-img{
+/* .intro-img{
     background-image: url("../images/Circle\ design.svg");
     background-repeat: no-repeat;
     background-position: center;
-    width: 40%;
+    width: 50%;
     padding: 35px 0;
     margin-left: 35px;
     text-align: center;
-}
+} */
 
 
-.partnership-section{
-    /* border: 1px solid palegreen; */
+/* .partnership-section{
+    border: 1px solid palegreen;
     width: 85%;
     margin: 0 auto;
     display: flex;
@@ -108,4 +150,7 @@ body {
     padding: 20px 40px;
     background: #fff;
     border: 1px solid whitesmoke;
-}
+    border-right: none;
+    border-left: none;
+    box-shadow: 0.2px 0.2px 0.5px  white;
+} */
