@@ -1,7 +1,7 @@
 @media screen and (max-width: 662px) {
   body {
     width: 90%;
-    margin: 50px 15px;
+    margin: 50px auto;
   }
 /* Navbar section start */
 
@@ -43,4 +43,23 @@
 
 /* Navbar section end */
 
+/* Intro section start */
+
+  .intro-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .intro-details-container{
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
+  .intro-img-container{
+    order: 1;
+    width: 100%;
+  }
+
+  /* Intro section end */
 }

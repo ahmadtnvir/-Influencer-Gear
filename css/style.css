@@ -15,18 +15,20 @@ body {
     --primary-color: red;
 } */
 
-header{
-  border: 2px solid yellowgreen;  experiment
+header {
+  /* experiment */
+
+  border: 2px solid yellowgreen;
 }
 
 /* Navbar section start */
 
 .navbar-section {
+  border: 2px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .nav-title {
   width: 50%;
@@ -41,103 +43,127 @@ header{
   width: 45%;
 }
 
-.nav-items .item-1{
+.nav-items .item-1 {
   width: 90%;
   margin-right: 10px;
 }
 
-.nav-items .item-1 ul{
+.nav-items .item-1 ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
-.nav-items .item-1 ul a{
+.nav-items .item-1 ul a {
   text-decoration: none;
   color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
 }
 
-.nav-items  .item-2{
+.nav-items .item-2 {
   width: 10%;
   text-align: center;
 }
 
-.nav-items  .item-2 img{
- width: 45%;
+.nav-items .item-2 img {
+  width: 45%;
 }
 
-.item-3{
+.item-3 {
   width: 5%;
   text-align: center;
 }
 
 /* Navbar section end */
+/* Intro section start */
 
-/* .nav-items > ul {
+.intro-section {
+  /* experiment */
+
+  border: 2px solid red;
+  margin: 50px 0;
   display: flex;
-  justify-content: space-evenly;
-  list-style: none;
-} */
+  gap: 5px;
+}
 
-/* .nav-items > ul > li > a {
-  text-decoration: none;
+.intro-details-container {
+  /* border: 2px solid green; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.intro-title {
+  /* border: 2px solid saddlebrown; */
+}
+
+.intro-title > h3 {
+  color: #3a3a3a;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.intro-description {
+  /* border: 2px solid yellow; */
+  margin: 15px 0;
+}
+
+.intro-description > p {
   color: #3a3a3a;
   font-size: 16px;
   font-weight: 600;
-} */
+}
+
+.btn {
+  /* border: 2px solid blue; */
+}
+
+.btn > button {
+  background: #e02c6d;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 24px;
+}
+
+.intro-img-container {
+  /* border: 2px solid purple; */
+  padding: 5px;
+  width: 50%;
+}
+
+.intro-img {
+  /* border: 2px solid violet; */
+  text-align: center;
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  padding: 30px;
+}
+
+.intro-img > img{
+  width: 100%;
+}
+
+/* Intro section end */
 
 
-/* .navbar-section img {
-  margin-right: 30px;
-} */
 
 
-/* .intro-details{
-    width: 50%;
-    margin-right: 50px;
-} */
 
-/* .intro-section{
-    display: flex;
-    align-items: center;
-    margin: 50px 0 70px 0;
-} */
 
-/* .intro-title{
-    color: #3a3a3a;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 70px;
-} */
 
-/* .intro-description{
-    color: #3a3a3a;
-    font-size: 16px;
-    font-weight: 600;
-    margin: 30px 0;
-} */
 
-/* .intro-details button{
-    background: #e02c6d;
-    border: none;
-    border-radius: 40px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 700;
-    padding: 10px 24px;
-} */
 
-/* .intro-img{
-    background-image: url("../images/Circle\ design.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
-    padding: 35px 0;
-    margin-left: 35px;
-    text-align: center;
-} */
+
+
+
 
 
 /* .partnership-section{
